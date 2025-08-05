@@ -1,3 +1,3 @@
 ```sh
-npx minju25kim
+npx minju25kim-npx
 ```
