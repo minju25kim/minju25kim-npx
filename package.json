@@ -1,0 +1,35 @@
+{
+  "name": "minju25kim-npx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "bin": {
+    "minju25kim": "dist/index.js"
+  },
+  "scripts": {
+    "start": "npm run build && node dist/index.js",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [],
+  "author": "Minju Kim",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/minju25kim/minju25kim-npx.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.5.0",
+    "inquirer": "^12.9.0"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.7.0",
+    "@types/node": "^24.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
